@@ -1,0 +1,19 @@
+{
+    "verbose": true,
+    "ignore": [
+        ".git",
+        "node_modules/**/node_modules",
+        "public"
+    ],
+    "watch": [
+        "server.js",
+        "routes/",
+        "models/",
+        "middleware/"
+    ],
+    "env": {
+        "NODE_ENV": "development"
+    },
+    "ext": "js,json",
+    "delay": "2500"
+} 
